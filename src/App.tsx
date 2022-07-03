@@ -1,25 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BoxButtons, BoxComplementary, BoxContained,
+  Container, InitialButton, InitialText,
+  SecondaryText,
+  TitleText
+} from './App.styles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <BoxContained>
+        <BoxComplementary>
+          <TitleText>
+            Vitor e Mayara
+          </TitleText>
+          <InitialText>
+            Seja bem vindo(a)
+            <br/>
+            ao nosso chá de casa nova
+          </InitialText>
+          <SecondaryText>
+            Escolha qual lista deseja acessar:
+          </SecondaryText>
+          <BoxButtons>
+            <InitialButton variant='contained'>
+              Família
+            </InitialButton>
+            <InitialButton variant='contained'>
+              Amigos
+            </InitialButton>
+          </BoxButtons>
+        </BoxComplementary>
+      </BoxContained>
+    </Container>
   );
 }
 
