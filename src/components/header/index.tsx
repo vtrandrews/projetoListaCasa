@@ -6,8 +6,8 @@ export function Header() {
     <Container>
       <BoxHeader>
         <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
+          <li><a href="/">Início</a></li>
+          <li><a href="/lista-de-presentes">Lista de Presente</a></li>
         </ul>
       </BoxHeader>
     </Container>

@@ -16,16 +16,17 @@ export const Container = styled(Box)`
 
 export const BoxContained = styled(Box)`
   &.MuiBox-root{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F9F9F9;
     border-radius: 50px;
-    width: 90%;
-    height: 90%;
-    box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.45);
-    -webkit-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.45);
-    -moz-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.45);
+    width: 80%;
+    height: 80%;
   }
 `;
 
