@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled(Box)`
   &.MuiBox-root{
-    background-image: url("https://media.istockphoto.com/photos/golden-orange-colored-blurred-background-abstract-blur-glowing-orange-picture-id1172811422?b=1&k=20&m=1172811422&s=612x612&w=0&h=N_I339orgpCdwZIH1dF8BOF-JCAcIAYaYoqrC4VAf7Q=");
+    background-image: url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
     background-size: cover;
     width: 100%;
     height: 100vh;

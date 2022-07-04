@@ -1,9 +1,15 @@
 import React from "react";
-import { Container } from "./styles.modules"
+import { BoxHeader, Container } from "./styles.modules"
 
 export function Header() {
   return(
     <Container>
+      <BoxHeader>
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+        </ul>
+      </BoxHeader>
     </Container>
   )
 }
